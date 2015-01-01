@@ -32,8 +32,14 @@ It follows the approach of dynamic programming and builds the optimal path seque
 
 The sub-problem is as follows:
 
-``` 
-optimal_path[i] = min(optimal_path[i - 1] + ENERGY_WITHOUT_JET_STREAM, 
-                      optimal_path[start_marker[i]] + ENERGY_REQUIRED[start_marker[i]]) 
+```
+optimal_path[i] = min(optimal_path[i - 1] + ENERGY_WITHOUT_JET_STREAM,
+                      optimal_path[start_marker[i]] + ENERGY_REQUIRED[start_marker[i]])
 ```
 This is computed for every single mile marker from the beginning of the jet streams
+
+### Usage
+
+```
+> python optimal_sequence.py <path_to_file_containing_flight_paths>
+```
