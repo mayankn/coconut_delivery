@@ -2,7 +2,7 @@
 
 A swallow has an assignment to deliver a coconut to a possibly-insane king.
 
-To save energy for the fight, the swallow will take advantage of jet streams that will lower his flying energy consumption.
+To save energy for the flight, the swallow will take advantage of jet streams that will lower his flying energy consumption.
 
 Before the flight, the delivery service gave the swallow an input file in the following format:
 
